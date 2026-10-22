@@ -13,6 +13,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+Console.WriteLine("Application is starting Hello World...");
+
 app.UseHttpsRedirection();
 app.UseRouting();
 
